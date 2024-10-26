@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5a0a0;
+}
+
+header {
+    background-color: #a03939;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.video-section, .carousel-section, #about-us, #testimonials, #contact-us {
+    padding: 2em;
+    text-align: center;
+}
+
+.video-section video {
+    border: 2px solid #333;
+    max-width: 100%;
+}
+
+.carousel {
+    position: relative;
+    max-width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+}
+
+.carousel-images img {
+    width: 100%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(214, 230, 231);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+#about-us p, #testimonials p {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.testimonial {
+    margin: 2em 0;
+    font-style: italic;
+}
+
+#contact-us form, .calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-us input, #contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#contact-us button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:last-child {
+    background-color: #4267B2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
